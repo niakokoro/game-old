@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color:teal;
+    border: 2px solid  rgb(2, 0, 0);
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 150px;
+}
+
+.header h1 {
+    margin: 0;
+    flex: 40%;
+    text-align: center;
+}
+
+.navbar {
+    background-color: rgb(15, 17, 139);
+    border: 2px solid rgb(0, 0, 7);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: white;
+    background-color:green;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+}
+
+.contenedor .lado-izq {
+    color: white;
+    flex: 20%;
+    background-color: red;
+    border: 2px solid blue;
+    margin: 10px;
+    text-align: center;
+}
+
+.contenedor .lado-izquierdo img {
+    width: 255px;
+    height: 200px;
+}
+
+.contenedor .lado-izq p {
+    text-align: justify;
+    padding: 13px;
+}
+
+.contenedor .lado-cent {
+color:white;
+flex: 20%;
+background-color: rgb(66, 29, 29);
+border: 2px solid orange;
+margin: 10px;
+text-align: center;
+}
+
+.contenedor .lado-cent img {
+    width: 300px;
+    height: 200px;
+}
+
+.contenedor .lado-cent p {
+    text-align: justify;
+    padding: 13px;
+}
+
+.contenedor .lado-der {
+    color: white;
+    flex: 20%;
+    background-color:rgb(240, 160, 12);
+    border: 2px solid blue;
+    margin: 10px;
+    text-align: center;
+}
+
+.contenedor .lado-der img {
+    width: 300px;
+    height: 200px;
+}
+
+.contenedor .lado-der p {
+    text-align: justify;
+    padding: 13px;
+}
+
+.pie-pagina {
+    display: flex;
+    background-color:teal;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina p {
+    margin: 0;
+    padding: 13px;
+    color: white;
+}
+
+.pie-pagina .fab {
+    color: blue;
+    font-size: 40px;
+}
+
+.pie-pagina .google {
+    color:orange;
+    font-size: 40px;
+}
+
+.pie-pagina .twitter {
+    color: blue;
+    font-size: 40px;
+}
+
+.pie-pagina a {
+    margin-right: 10px;
+    padding:10px;
+}
